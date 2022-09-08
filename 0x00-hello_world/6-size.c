@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 /**
- *
- * main - prints the size of various types
- *
+ * main - Entry point
  * Return: 0 (Success)
  */
 int main(void)
 {
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
         
 	printf("size of a char: %Ild byte(s)\n", sizeof(char));
 	printf("size of an int: %Ild byte(s)\n", sizeof(int));
