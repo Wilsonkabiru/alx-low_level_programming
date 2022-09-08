@@ -10,6 +10,6 @@
 int main(void)
 {
 	(2, "and that piece of art is useful"
-    " 2015-10-19","59");
-	return (1);;;
+        "2015-10-19","59");
+	return (1);
 }
