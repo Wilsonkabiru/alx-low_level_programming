@@ -3,7 +3,6 @@
 #include <stdio.h>
 /*
  * main - Print if the number is positive, zero, or negative
- *
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negative"
  * Return: 0
@@ -27,6 +26,7 @@ else if (l == 0)
 }
 else
 {
+	/*If none of the conditions is true */
 	printf("Last digit of %d is %d and is less than 6 and not 0/n" , n, l);
 }
 return (0);
