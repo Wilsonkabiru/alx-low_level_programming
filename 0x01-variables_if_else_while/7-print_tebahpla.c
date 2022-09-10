@@ -5,7 +5,7 @@
  *  Return: Always 0 (Success)
  */
 
-	int main(void)
+int main(void)
 {
 	char alphabet;
 	for (alphabet = 122 ; alphabet >= 97; alphabet--)
