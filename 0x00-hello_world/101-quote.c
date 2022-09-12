@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main -  Prints a text
+ * main -  Prints exactly "and that piece of art is useful"
  *
  * Return: 0 (Success)
  *
