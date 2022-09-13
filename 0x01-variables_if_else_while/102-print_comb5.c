@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - print possible combination of two 2-digit numbers
  *
@@ -10,7 +11,7 @@ int main(void)
 
 	while (n1 <= 99)
 	{
-		n2 = 0;
+		n2 = n1;
 		while (n2 <= 99)
 		{
 			if  (n2 != n1)
