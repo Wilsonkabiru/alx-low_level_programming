@@ -9,15 +9,26 @@
  */
 int main(void)
 {
-	int n;
+	unsigned long int sum3, sum5, sum;
+	int i;
 
+	sum3 = 0;
+	sum5 = 0;
 	sum = 0;
 
-	for (n = 0; n < 1024; n++)
+	for (i = 0; i < 1024; ++i)
 	{
-		if ((n % 3) == 0 || (n % 5) == 0)
-		sum == n;
+		if ((i % 3) == 0)
+		{
+			sum3 = sum3 + i;
+		}
+		else if ((i % 5) == 0)
+		{
+			sum5 = sum5 + i;
+		}
 	}
-	printf("%d\n", sum);
+	sum = sum3 + sum5;
+	printf("%lu\n", sum);
 	return (0);
 }
+
