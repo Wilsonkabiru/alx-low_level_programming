@@ -1,7 +1,10 @@
 #include "main.h"
+
 /**
- * A function that prints a sign of a number
- * @n: The number of which sign will be printed
+ * print_sign - A function that prints a sign of a number.
+ *
+ * Description: A function that prints signs of numbers.
+ * @n: The number of which sign will be printed.
  * Return: 0
  */
 int print_sign(int n)
@@ -11,7 +14,7 @@ int print_sign(int n)
 	{
 	_putchar('+');
 	return (1);
-}
+	}
 	else if (n <  0)
 	{
 	_putchar('-');
