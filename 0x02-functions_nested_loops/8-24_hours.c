@@ -7,24 +7,45 @@
 *
 * Description: A function that helps us track time.
 *
-* h = hour, m = minutes
+* i = hour, j = minutes
+*
 * Return: 0
 */
 void jack_baeur(void)
 {
 
-int h;
-int m;
-for (h = 0; h < 24; h++)
-{
-for  (m = 0; m < 60; m++)
-{
-_putchar(h / 10 + '0');
-_putchar((h % 10) + '0');
-_putchar(':');
-_putchar(m / 10 + '0');
-_putchar((m % 10) + '0');
-_putchar('\n');
+	int i;
+	int j;
+
+	for (i = 0; i < 24; i++)
+	{
+		for (j = 0; j < 60; j++)
+		{
+			if (i < 10)
+			{
+				_putchar('0');
+				_putchar(i + '0');
+			}
+			else if (i >= 10)
+			{
+				_putchar((i / 10) + '0');
+				_putchar((i % 10) + '0');
+			}
+			if (j < 10)
+			{
+				_putchar(':');
+				_putchar('0');
+				_putchar(j + '0');
+			}
+			else if (j > 10)
+			{
+				_putchar(':');
+				_putchar((j / 10) + '0');
+				_putchar((j % 10) + '0');
+			}
+		}
+		_putchar('\n');
+
+	}
 }
-}
-}
+
