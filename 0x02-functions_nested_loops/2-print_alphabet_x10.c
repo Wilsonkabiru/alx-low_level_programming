@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * main - entry point
  * Printing lowerscase alphabets 10 times.
  *
  * Return: 0
