@@ -1,10 +1,14 @@
 #include "main.h"
+
 /**
- *  jack_bauer - func that prints every minute of the day of Jck Baeur, starti
- *  n from 00:00 to 23:59, min loop counts mins, while hour loop counts hours
- *  and resets mins
- *  Return: 0
- */
+* jack_baeur - A funcion that prints every minute of the day of Jack Baeur,
+* starting from 00:00 to 23:59, min loop counts mins,
+* while hour loop counts hours and resets mins.
+*
+* Description: A function that helps us track time.
+*
+* Return: 0
+*/
 void jack_baeur(void)
 {
 	int hours = 0;
