@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
  * Print_alphabet_x10 - function to print abc 10 times
  *
  * Return: 0
- *
  */
 void print_alphabet_x10(void)
 {
@@ -15,8 +15,8 @@ void print_alphabet_x10(void)
 		{
 			_putchar(c);
 		}
+		_putchar('\n');
 	}
-_putchar('\n');
 }
 		
 
