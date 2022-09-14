@@ -4,6 +4,8 @@
  * times_table - prints the 9 times table, starting with 0
  *
  * Description: A function that prints time tables.
+ *
+ * Return: 0
  */
 int times_table(void)
 {
@@ -23,11 +25,13 @@ int times_table(void)
 			prod = num * mult;
 
 			if (prod <= 9)
+				_putchar(' ');
+			else
 				_putchar((prod / 10) + '0');
 
 			_putchar((prod % 10) + '0');
 		}
 		_putchar('\n');
 	}
-return (0);
+	Return (0);
 }
