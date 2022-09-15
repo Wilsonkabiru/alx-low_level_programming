@@ -20,11 +20,12 @@ int main(void)
 			continue;
 		}
 
-		for (inc = 3; inc < number / 2; inc ++2)
+		for (inc = 3; inc < number / 2; inc++)
 		{
 			if (number % inc == 0)
 				number /= inc;
 		}
+		putchar('\n');
 	}
-	_putchar('\n');
+	return (0);
 }
