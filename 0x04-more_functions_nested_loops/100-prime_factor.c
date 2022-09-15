@@ -3,29 +3,21 @@
 /**
  * main - prints the largest prime factor
  * of a number
- *
+ * @n: the number being printed
  * Return: returns 0
  */
 
 int main(void)
 {
-	long number = 612852475143;
-	int inc;
+	n = 612852475143;
+	unsigned long int i = 3;
 
-	while (inc++ < number / 2)
+
+	for (; i < 12057; i += 2)
 	{
-		if (number % inc == 0)
-		{
-			number /= 2;
-			continue;
-		}
-
-		for (inc = 3; inc < number / 2; inc++)
-		{
-			if (number % inc == 0)
-				number /= inc;
-		}
-		putchar('\n');
+		while (n % i == 0 && n != i)
+			n /= i;
 	}
+	printf("%lu\n", n);
 	return (0);
 }
