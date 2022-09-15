@@ -1,25 +1,34 @@
-#include "main.h"
+#include  <stdio.h>
 
 /**
- * fizz_buzz - prints numbers from 1 to 100
+ * main - prints numbers from 1 to 100
+ * Return: returns 0
  */
-void fizz_buzz(void)
+int main(void)
 {
-	int x;
+	int num = 1;
 
-	for (x = 0; x <= 100; x++)
+	while (num++ < 100)
 	{
-		if (x == 100)
-			printf("Buzz ");
-		if (x % 3 == 0 && x % 5 == 0)
+		if ((num % 3 == 0) && (num % 5 == 0))
+		{
 			printf("FizzBuzz ");
-		else if (x % 5 == 0)
+		}
+		else if (num % 3 == 0)
+		{
 			printf("Fizz ");
-		else if (x % 3 == 0)
-			printf("Buzz ");
-		else
-			printf("%d ", x);
+		}
+		else if (num % 5 == 0)
+		{
+			if (num != 100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
+		}
+		printf("\n");
 	}
-	printf("\n");
-
 }
