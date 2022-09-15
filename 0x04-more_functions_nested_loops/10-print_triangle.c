@@ -9,23 +9,24 @@
 
 void print_triangle(int size)
 {
-	int inc1, inc2
+	int 1;
+	int 2;
 
 		if (size > 0)
 		{
-			for (inc1 = 1; inc1 <= size; inc1++)
+			for (int 1 = 1; int 1 <= size; int 1++)
 			{
-				for ((inc2 = size - inc1); inc2 > 0; inc2--)
+				for ((int 2 = size - int 1); int 2 > 0; int 2--)
 				{
 					putchar(' ');
 				}
 
-				for (inc2 = 0; inc2 < inc1; inc++)
+				for (int 2 = 0; int 2 < int 1; int++)
 				{
 					putchar('#');
 				}
 
-				if (inc1 == size)
+				if (int 1 == size)
 				{
 					continue;
 				}
