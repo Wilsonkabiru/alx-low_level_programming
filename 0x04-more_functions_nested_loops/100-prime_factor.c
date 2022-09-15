@@ -1,17 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints the largest prime factor
- * of a number
- * @n: the number being printed
+ * main - Entry point
  * Return: returns 0
  */
-
 int main(void)
 {
-	n = 612852475143;
-	unsigned long int i = 3;
-
+	unsigned long int i = 3, n = 612852475143;
 
 	for (; i < 12057; i += 2)
 	{
