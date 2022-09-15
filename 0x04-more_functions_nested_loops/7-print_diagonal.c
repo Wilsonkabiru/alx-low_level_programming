@@ -2,18 +2,21 @@
 
 /**
  * print_diagonal - prints line
- * @n: integer parameters
+ * @size: integer parameters
  */
-void print_diagonal(int n)
+void print_diagonal(int size)
 {
 	int x;
 
-	if (n <= 0)
+	if (size <= 0)
 		_putchar('\n');
 	else
 	{
-		for (x = 0; x < n; x++)
-			_putchar('\');
-		_putchar('\n');
+		for (x = 0; x < size; x++)
+		{
+			for (i = 0; i <= x; i++)
+				putchar(' ');
+			putchar(92);
+			_putchar('\n');
 	}
 }
