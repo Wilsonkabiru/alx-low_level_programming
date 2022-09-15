@@ -2,7 +2,9 @@
 
 /**
  * print_square - prints squares
- * @size -integer parameters
+ *
+ * Description: A function that prints squares
+ * @size: integer parameters
  */
 void print_square(int size)
 {
