@@ -1,10 +1,10 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcpy - copies a string
- * @dest: param1
- * @src: param2
- * @n: param3
+ * _strcpy - for copying purpose
+ * @dest: parameter 1
+ * @src: parameter 2
+ * @n: parameter 3
  * Return: string
  */
 char *_strcpy(char *dest, char *src, int n)
