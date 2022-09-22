@@ -10,10 +10,10 @@ int main(void)
    p = &n;
    /*
     * write your line of code here...
+    * Remember:
     * - you are not allowed to use a in your new line of code
     * - you are not allowed to modify p
-    * - you can only one statement
-    * - you are not allowed to use ,
+    * - you can only write one statement
     * - you are not allowed to code anything else than this line of code at the expected line
     */
     *(p + 5) = 98;
