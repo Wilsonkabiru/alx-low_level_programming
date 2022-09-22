@@ -1,11 +1,10 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strcpy - for copying purpose
- * @dest: param1
- * @src: param2
- * @n: param3
- * Return: string
+ * @dest: buffer storing the string copy
+ * @src:the source string
+ * @n: max number of byte copied
+ * Return:returns
  */
 char *_strcpy(char *dest, char *src, int n)
 {
