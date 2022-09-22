@@ -7,8 +7,8 @@ int main(void)
 	 int *p;
 
 	 a[2] = 1024;
+	 p = &n;
 	 /*
-	  * Description: function that prints 98\n
 	  * write your line of code here...
 	  * Remember:
 	  *   - you are not allowed to use a in your new line of code
