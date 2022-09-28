@@ -2,7 +2,7 @@
 /**
  * helperFunction - checks if sqrt of number exists
  * @num: number
- * @psqrt: possible sqrt of a number
+ * @pSqrt: possible sqrt of a number
  *
  * Return: sqrt of number of -1 for error
  */
