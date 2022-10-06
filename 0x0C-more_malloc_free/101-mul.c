@@ -25,7 +25,7 @@ int find_len(char *str)
 }
 
 /**
- * create_xarray - creates an array of chars and initializes it with
+ * create_xarray - Creates an array of chars and initializes it with
  * the character 'x'.Adds a terminating null byte
  * @size: The size of the array to be initialized
  *
@@ -52,7 +52,7 @@ char *create_xarray(int size)
 }
 
 /**
- * iterate_zeroes - iterates through a string of numbers containing
+ * iterate_zeroes - Iterates through a string of numbers containing
  * leading zeroes until it hits a non-zero number
  * @str: The string of numbers to be iterate through
  *
@@ -67,7 +67,7 @@ char *iterate_zeroes(char *str)
 }
 
 /**
- * get_digit - converts a digit character to a corresponding int
+ * get_digit - Converts a digit character to a corresponding int
  * @c: The character to be converted
  *
  * Description: If c is a non-digit, the function
@@ -88,11 +88,11 @@ int get_digit(char c)
 }
 
 /**
- * get_prod - multiplies a string of numbers by a single digit
+ * get_prod - Multiplies a string of numbers by a single digit
  * @prod: The buffers to store the results
  * @mult: The string of numbers
  * @digit: The single digit
- * zeroes: The necessary number of leading zeroes
+ * @zeroes: The necessary number of leading zeroes
  *
  * Description: If mult contains a non-digit, the function
  * exits with a status of 98
@@ -179,7 +179,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 }
 
 /**
- * main - multiplies two positive numbers
+ * main - Multiplies two positive numbers
  * @argv: The number of arguments passed to the program
  * @argc: An array of pointers to the arguments
  *
