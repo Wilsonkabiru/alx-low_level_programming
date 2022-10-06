@@ -9,7 +9,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes);
 void add_nums(char *final_prod, char *next_prod, int next_len);
 
 /**
- * find_len - finds the length of a string
+ * find_len - Finds the length of a string
  * @str: The string to be measured
  *
  * Return: The length of the string
@@ -26,7 +26,7 @@ int find_len(char *str)
 
 /**
  * create_xarray - Creates an array of chars and initializes it with
- * the character 'x'.Adds a terminating null byte
+ * the character 'x'. Adds a terminating null byte
  * @size: The size of the array to be initialized
  *
  * Description: If there is insufficient space,
