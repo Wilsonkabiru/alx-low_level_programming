@@ -106,7 +106,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 
 	while (*prod)
 	{
-		*prod = 'x';
+		*prod = 'X';
 		prod++;
 	}
 
@@ -163,7 +163,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 		next_len--;
 	}
 
-	for (; next_len >= 0 && *next_prod != 'x'; next_len--)
+	for (; next_len >= 0 && *next_prod != 'X'; next_len--)
 	{
 		num = (*next_prod - '0');
 		num += tens;
@@ -220,7 +220,7 @@ int main(int argc, char *argv[])
 	}
 	for (index = 0; final_prod[index]; index++)
 	{
-		if (final_prod[index] != 'x')
+		if (final_prod[index] != 'X')
 			putchar(final_prod[index]);
 	}
 	putchar('\n');
